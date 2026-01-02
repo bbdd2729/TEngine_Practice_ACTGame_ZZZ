@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321ac51ffcc82334caeb9529f8469721, type: 3}
+  m_Name: EmptyInspectorItems
+  m_EditorClassIdentifier: 
+  _items:
+  - title: Ultimate Editor Enhancer
+    enabled: 1
+    items:
+    - title: Bookmarks
+      menuPath: Tools/Ultimate Editor Enhancer/Bookmarks
+      enabled: 1
+    - title: Distance Tool
+      menuPath: Tools/Ultimate Editor Enhancer/Distance Tool
+      enabled: 1
+    - title: View Gallery
+      menuPath: Tools/Ultimate Editor Enhancer/View Gallery
+      enabled: 1
+    - title: Documentation
+      menuPath: Tools/Ultimate Editor Enhancer/Documentation
+      enabled: 1
+    - title: Settings
+      menuPath: Tools/Ultimate Editor Enhancer/Settings
+      enabled: 1
+  - title: Settings
+    enabled: 1
+    items:
+    - title: Project Settings
+      menuPath: Edit/Project Settings...
+      enabled: 1
+    - title: Preferences
+      menuPath: Edit/Preferences...
+      enabled: 1
+    - title: Shortcuts
+      menuPath: Edit/Shortcuts...
+      enabled: 1
+  - title: Packages
+    enabled: 1
+    items:
+    - title: Import Custom Package
+      menuPath: Assets/Import Package/Custom Package...
+      enabled: 1
+    - title: Asset Store
+      menuPath: Window/Asset Store
+      enabled: 1
+    - title: Package Manager
+      menuPath: Window/Package Manager
+      enabled: 1
+  - title: Hot Reload
+    enabled: 1
+    items:
+    - title: Open
+      menuPath: Window/Hot Reload/Open
+      enabled: 1
+    - title: Recompile
+      menuPath: Window/Hot Reload/Recompile
+      enabled: 1
+  - title: 2D
+    enabled: 1
+    items:
+    - title: Light Batching Debugger
+      menuPath: Window/2D/Light Batching Debugger
+      enabled: 1
+  - title: Console Pro 3
+    enabled: 1
+    items:
+    - title: Console Pro 3
+      menuPath: Window/Console Pro 3
+      enabled: 1
+  - title: UniTask Tracker
+    enabled: 1
+    items:
+    - title: UniTask Tracker
+      menuPath: Window/UniTask Tracker
+      enabled: 1
+  - title: Search
+    enabled: 1
+    items:
+    - title: New Window
+      menuPath: Window/Search/New Window
+      enabled: 1
+    - title: Transient Window
+      menuPath: Window/Search/Transient Window
+      enabled: 1
+    - title: Index Manager
+      menuPath: Window/Search/Index Manager
+      enabled: 1
+    - title: Scene
+      menuPath: Window/Search/Scene
+      enabled: 1
+    - title: Find Files
+      menuPath: Window/Search/Find Files
+      enabled: 1
+    - title: Asset Store
+      menuPath: Window/Search/Asset Store
+      enabled: 1
+    - title: Asset Database
+      menuPath: Window/Search/Asset Database
+      enabled: 1
+    - title: Open Report...
+      menuPath: Window/Search/Open Report...
+      enabled: 1
+  - title: Text
+    enabled: 1
+    items:
+    - title: Font Asset Creator
+      menuPath: Window/Text/Font Asset Creator
+      enabled: 1
+    - title: Sprite Importer
+      menuPath: Window/Text/Sprite Importer
+      enabled: 1
+  - title: TextMeshPro
+    enabled: 1
+    items:
+    - title: Font Asset Creator
+      menuPath: Window/TextMeshPro/Font Asset Creator
+      enabled: 1
+    - title: Sprite Importer
+      menuPath: Window/TextMeshPro/Sprite Importer
+      enabled: 1
+    - title: Import TMP Essential Resources
+      menuPath: Window/TextMeshPro/Import TMP Essential Resources
+      enabled: 1
+    - title: Import TMP Examples and Extras
+      menuPath: Window/TextMeshPro/Import TMP Examples and Extras
+      enabled: 1
+    - title: Project Files GUID Remapping Tool
+      menuPath: Window/TextMeshPro/Project Files GUID Remapping Tool
+      enabled: 1
+    - title: Project Text Spacing Conversion Tool
+      menuPath: Window/TextMeshPro/Project Text Spacing Conversion Tool
+      enabled: 1
+  - title: General
+    enabled: 1
+    items:
+    - title: Scene
+      menuPath: Window/General/Scene
+      enabled: 1
+    - title: Game
+      menuPath: Window/General/Game
+      enabled: 1
+    - title: Inspector
+      menuPath: Window/General/Inspector
+      enabled: 1
+    - title: Hierarchy
+      menuPath: Window/General/Hierarchy
+      enabled: 1
+    - title: Project
+      menuPath: Window/General/Project
+      enabled: 1
+    - title: Console
+      menuPath: Window/General/Console
+      enabled: 1
+    - title: Progress
+      menuPath: Window/General/Progress
+      enabled: 1
+    - title: Test Runner
+      menuPath: Window/General/Test Runner
+      enabled: 1
+    - title: Services
+      menuPath: Window/General/Services
+      enabled: 1
+    - title: Device Simulator
+      menuPath: Window/General/Device Simulator
+      enabled: 1
+  - title: Rendering
+    enabled: 1
+    items:
+    - title: Lighting
+      menuPath: Window/Rendering/Lighting
+      enabled: 1
+    - title: Light Explorer
+      menuPath: Window/Rendering/Light Explorer
+      enabled: 1
+    - title: Probe Volume Settings (Experimental)
+      menuPath: Window/Rendering/Probe Volume Settings (Experimental)
+      enabled: 1
+    - title: Render Pipeline Converter
+      menuPath: Window/Rendering/Render Pipeline Converter
+      enabled: 1
+    - title: Occlusion Culling
+      menuPath: Window/Rendering/Occlusion Culling
+      enabled: 1
+    - title: Look Dev
+      menuPath: Window/Rendering/Look Dev
+      enabled: 1
+  - title: Animation
+    enabled: 1
+    items:
+    - title: Animation
+      menuPath: Window/Animation/Animation
+      enabled: 1
+    - title: Animator
+      menuPath: Window/Animation/Animator
+      enabled: 1
+    - title: Animator Parameter
+      menuPath: Window/Animation/Animator Parameter
+      enabled: 1
+  - title: Audio
+    enabled: 1
+    items:
+    - title: Audio Mixer
+      menuPath: Window/Audio/Audio Mixer
+      enabled: 1
+  - title: Sequencing
+    enabled: 1
+    items:
+    - title: Timeline
+      menuPath: Window/Sequencing/Timeline
+      enabled: 1
+    - title: Sequence Assembly
+      menuPath: Window/Sequencing/Sequence Assembly
+      enabled: 1
+    - title: Sequence Assets
+      menuPath: Window/Sequencing/Sequence Assets
+      enabled: 1
+    - title: Sequences
+      menuPath: Window/Sequencing/Sequences
+      enabled: 1
+  - title: Analysis
+    enabled: 1
+    items:
+    - title: Profiler
+      menuPath: Window/Analysis/Profiler
+      enabled: 1
+    - title: Profiler (Standalone Process)
+      menuPath: Window/Analysis/Profiler (Standalone Process)
+      enabled: 1
+    - title: Frame Debugger
+      menuPath: Window/Analysis/Frame Debugger
+      enabled: 1
+    - title: Physics Debugger
+      menuPath: Window/Analysis/Physics Debugger
+      enabled: 1
+    - title: Code Coverage
+      menuPath: Window/Analysis/Code Coverage
+      enabled: 1
+    - title: Import Activity
+      menuPath: Window/Analysis/Import Activity
+      enabled: 1
+    - title: Profile Analyzer
+      menuPath: Window/Analysis/Profile Analyzer
+      enabled: 1
+    - title: Performance Markers
+      menuPath: Window/Analysis/Performance Markers
+      enabled: 1
+    - title: Input Debugger
+      menuPath: Window/Analysis/Input Debugger
+      enabled: 1
+    - title: Rendering Debugger
+      menuPath: Window/Analysis/Rendering Debugger
+      enabled: 1
+    - title: Render Graph Viewer
+      menuPath: Window/Analysis/Render Graph Viewer
+      enabled: 1
+    - title: IMGUI Debugger
+      menuPath: Window/Analysis/IMGUI Debugger
+      enabled: 1
+  - title: Asset Management
+    enabled: 1
+    items:
+    - title: Version Control
+      menuPath: Window/Asset Management/Version Control
+      enabled: 1
+  - title: AI
+    enabled: 1
+    items:
+    - title: Navigation
+      menuPath: Window/AI/Navigation
+      enabled: 1
+    - title: Navigation (Obsolete)
+      menuPath: Window/AI/Navigation (Obsolete)
+      enabled: 1
+    - title: NavMesh Updater
+      menuPath: Window/AI/NavMesh Updater
+      enabled: 1
+  - title: Visual Effects
+    enabled: 1
+    items:
+    - title: Visual Effect Graph
+      menuPath: Window/Visual Effects/Visual Effect Graph
+      enabled: 1
+  - title: UI Toolkit
+    enabled: 1
+    items:
+    - title: UI Builder
+      menuPath: Window/UI Toolkit/UI Builder
+      enabled: 1
+    - title: Samples
+      menuPath: Window/UI Toolkit/Samples
+      enabled: 1
+    - title: Debugger
+      menuPath: Window/UI Toolkit/Debugger
+      enabled: 1
+    - title: Event Debugger
+      menuPath: Window/UI Toolkit/Event Debugger
+      enabled: 1
+    - title: Package Asset Converter
+      menuPath: Window/UI Toolkit/Package Asset Converter
+      enabled: 1
+  - title: Terrain
+    enabled: 1
+    items:
+    - title: Terrain Toolbox
+      menuPath: Window/Terrain/Terrain Toolbox
+      enabled: 1
+    - title: Edit Noise
+      menuPath: Window/Terrain/Edit Noise
+      enabled: 1
